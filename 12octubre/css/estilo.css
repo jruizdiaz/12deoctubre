@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** ESTILOS PROPIOS ***/
+
+body{
+	font: normal 11px/1.31em Verdana, Arial;
+	color: #666;
+}
+
+.contenedor{
+	width: 700px;
+	height: 1325px;
+	margin: 0 auto;
+	background: transparent url(../img/bkg-body.jpg) no-repeat 0 0;
+	position: relative;
+}
+
+h1{
+	width: 350px;
+	height: 52px;
+	background: transparent url(../img/bkg-h1-especial12octubre.jpg) no-repeat 0 0;
+	text-indent: -999999px;
+	position: absolute;
+	top: 126px;
+	left: 350px;
+}
+
+.videos{
+	height: 450px;
+}
+
+	.videos h2{
+		width: 370px;
+		height: 52px;
+		background: transparent url(../img/bkg-h2-videos.jpg) no-repeat 0 0;
+		text-indent: -999999px;
+		position: absolute;
+		top: 395px;
+		left: 330px;
+	}
+
+	.videos .myYoutubePlaylist{
+		width: 300px;
+		height: 205px;
+		background: transparent url(../img/bkg-videoPlayer.jpg) no-repeat 0 0;
+		position: absolute;
+		left: 362px;
+		top: 190px;
+	}
+
+	#flechaIzquierda, #flechaDerecha{
+		display: block;
+		background: transparent url(../img/flechaIzquierda.png) no-repeat 0 0;
+		width: 31px;
+		height: 46px;
+		text-indent: -999999px;
+		cursor: pointer;
+		position: absolute;
+		top: 314px;
+		right: 346px;
+	}
+
+	#flechaDerecha{
+		background: transparent url(../img/flechaDerecha.png) no-repeat 0 0;
+	    right: 0px;
+		top: 314px;
+	}
+
+.infografias{
+}
+
+	.infografias h2{
+	width: 518px;
+	height: 126px;
+	background: transparent url(../img/bkg-h2-infografias.jpg) no-repeat 0 0;
+	text-indent: -999999px;
+	margin-left: 5px;
+	}
+
+	.infografias ul{
+		height: 100%;
+		overflow: hidden;
+		padding: 2px 0 20px 0;
+	}
+
+		.infografias ul li{
+			float: left;
+			margin-right: 2px;
+		}
+
+			.infografias ul li a{
+				/*background: transparent url(../img/bkg-infografia.jpg) no-repeat 0 0;*/
+				display: block;
+				width: 171px;
+				height: 172px;
+				text-indent: -999999px;
+			}
+
+			.infografias ul li.viajes a{
+				background: transparent url(../img/bkg-infografia-viajes.jpg) no-repeat 0 0;
+			}
+
+			.infografias ul li.america a{
+				background: transparent url(../img/bkg-infografia-america.jpg) no-repeat 0 0;
+			}
+
+			.infografias ul li.conquista a{
+				background: transparent url(../img/bkg-infografia-conquista.jpg) no-repeat 0 0;
+			}
+
+			.infografias ul li.colonizacion a{
+				background: transparent url(../img/bkg-infografia-colonizacion.jpg) no-repeat 0 0;
+			}
+
+.actividades{
+    height: 380px;
+}
+
+	.actividades h2{
+	width: 650px;
+	height: 124px;
+	background: transparent url(../img/bkg-h2-actividades.jpg) no-repeat 0 0;
+	text-indent: -999999px;
+	margin-left: 5px;
+	}
+
+	.actividades h3{
+		color: #27674d;
+		font-family: Georgia, Times;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: bold;
+		padding-bottom: 15px;
+	}
+
+	.actividades-primaria{
+		width: 300px;
+		float: left;
+		margin-left: 25px;
+		display: inline;
+	}
+
+	.actividades-secundaria{
+		width: 300px;
+		float: left;
+	}
+
+		.actividades-primaria ul li, .actividades-secundaria ul li{
+			background: transparent url(../img/bkg-li-morado.png) no-repeat 0 0;
+			padding-left: 45px;
+			padding: 0 0 15px 45px;
+		}
+
+			.actividades-primaria ul li a, .actividades-secundaria ul li a{
+				font-family: Georgia, Times;
+				font-size: 13px;
+				font-style: italic;
+				font-weight: bold;
+				line-height: 1.31em;
+			}
+
+			.actividades-primaria ul li a{
+				color: #932f98;
+			}
+
+			.actividades-secundaria ul li a{
+				color: #2f6f98
+			}
+
+.materiales{
+	padding-bottom: 30px;
+}
+
+	.materiales h2{
+		width: 675px;
+		height: 119px;
+		background: transparent url(../img/bkg-h2-materialesEnlaces.jpg) no-repeat 0 0;
+		text-indent: -999999px;
+		margin-left: 5px;
+	}
+
+	.materiales a{
+		display: block;
+		width: 335px;
+		height: 43px;
+		background: transparent url(../img/bot-verMateriales.jpg) no-repeat 0 0;
+		margin-left: 25px;
+		text-indent: -999999px;
+		margin-top: -15px;
+	}
+
+
+/*** MY YOUTUBE PLAYLIST ***/
+
+.myYoutubePlaylist * {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.myYoutubePlaylist_YoutubeMovie {
+    padding-bottom: 10px;
+	display: block;
+}
+
+.myYoutubePlaylist_YoutubeMovie, .myYoutubePlaylist_YoutubeMovie embed, .myYoutubePlaylist_YoutubeMovie object {
+	height: 196px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 2px;
+	width: 280px;
+}
+
+.myYoutubePlaylist_YoutubeMovie object {
+    -moz-box-shadow: 1px 1px 5px 0 #111012;
+}
+
+.myYoutubePlaylist_YoutubePlaylist {
+    height: 100%;
+    overflow: hidden;
+}
+
+	.myYoutubePlaylist_YoutubePlaylist ul {
+		list-style-type: none;
+		height: 100%;
+		overflow: hidden;
+	}
+
+		.myYoutubePlaylist_YoutubePlaylist ul li {
+			float: left;
+			margin-right: 21px;
+		}
+
+			.myYoutubePlaylist_YoutubePlaylist ul li a img {
+				-moz-border-radius: 3px;
+				-moz-box-shadow: 1px 1px 3px #9793A3;
+				background: none repeat scroll 0 0 white;
+				border: 1px solid #5488AD;
+				display: block;
+				margin: 0 5px 5px 0;
+				padding: 4px;
+			}
